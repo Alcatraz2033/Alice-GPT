@@ -13,8 +13,9 @@ Es importante tener en cuenta que los asistentes virtuales son herramientas úti
 ##
 
 ## Alice-GPT ASISTENTE VIRTUAL
-Alice es un asistente virtual que utiliza la API de Chat-GPT para ofrecer respuestas precisas y relevantes a las preguntas de los usuarios. Gracias a la potencia de la tecnología GPT, Alice puede analizar el contexto y el tono de la conversación para brindar una experiencia de usuario personalizada y satisfactoria. Ya sea que los usuarios necesiten ayuda con una tarea cotidiana, información sobre un tema específico o simplemente una conversación amigable, Alice está siempre lista para ayudar. Además, la API de Chat-GPT permite que Alice aprenda y se adapte continuamente a las necesidades y preferencias de los usuarios, brindando una experiencia de asistencia virtual cada vez más eficiente y efectiva.<p align="center">
-	<img src="https://i.imgur.com/Um78TkC.png" width="100%" height="100%" align="">
+Alice es un asistente virtual que utiliza la API de Chat-GPT para ofrecer respuestas precisas y relevantes a las preguntas de los usuarios. Gracias a la potencia de la tecnología GPT, Alice puede analizar el contexto y el tono de la conversación para brindar una experiencia de usuario personalizada y satisfactoria. Ya sea que los usuarios necesiten ayuda con una tarea cotidiana, información sobre un tema específico o simplemente una conversación amigable, Alice está siempre lista para ayudar. Además, la API de Chat-GPT permite que Alice aprenda y se adapte continuamente a las necesidades y preferencias de los usuarios, brindando una experiencia de asistencia virtual cada vez más eficiente y efectiva.
+<p align="center">
+	<img src="https://i.imgur.com/Um78TkC.png" width="80%" height="80%" align="">
 </p>
 Alice solo está disponible actualmente en plataformas Linux.
 
