@@ -1,5 +1,5 @@
 import openai, config, os, signal
-from gtts import gTTS
+from elevenlabs import generate, play
 import speech_recognition as sr
 
 BLACK = '\033[30m'
@@ -45,6 +45,11 @@ alice = f"""{CYAN}
             {MAGENTA}By: Alcatraz2033{RESET}
 """
 
+def ctrl_c(sig, frame):
+    print(f"\n[{RED}!{RESET}] {RED}SALIENDO...{RESET}")
+    exit(1)
+signal.signal(signal.SIGINT, ctrl_c)
+
 def chat_gpt(query):
     openai.api_key = config.api_key
     try:
@@ -76,10 +81,12 @@ def voice2text():
         exit(1)
 
 def text2voice(texto):
-    tts = gTTS(text=texto, lang='es-us')
-    tts.save("audio.mp3")
-    os.system("mpg321 audio.mp3")
-    os.system("rm audio.mp3")
+    audio = generate(
+        text=texto,
+        voice="Bella",
+        model='eleven_multilingual_v1'
+    )
+    play(audio)
 
 if '__main__' == __name__:
     print(alice)
@@ -93,3 +100,4 @@ if '__main__' == __name__:
             posicion = respuesta.find("Alice") + 6
             nueva_respuesta = respuesta[posicion:]
             chat_gpt(nueva_respuesta)
+
