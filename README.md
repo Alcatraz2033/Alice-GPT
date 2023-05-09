@@ -65,7 +65,7 @@ cd Alice-GPT
 ```markdown
 pip install openai
 pip install SpeechRecognition
-pip install gtts
+pip install elevenlabs
 ```
 ### Ejecución
 ```markdown
