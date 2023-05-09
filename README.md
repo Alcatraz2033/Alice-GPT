@@ -19,6 +19,12 @@ Alice es un asistente virtual que utiliza la API de Chat-GPT para ofrecer respue
 </p>
 Alice solo está disponible actualmente en plataformas Linux.
 
+# Habla con Alice
+La palabra de activación es **Alice** seguido de lo que quieres preguntar. Por ejemplo:
+* **Alice** quién es el presidente de Ecuador?
+* Parece que va a llover, **Alice** cual es el pronóstico del clima en Ecuador?
+* **Salir** (Esta palabra cierra la ejecución del programa.)
+
 # Instalación
 ## Añade la API de CHAT-GPT a Alice.
 <p align="center">
